@@ -25,6 +25,9 @@ h1, h2, p {
     flex: 1;
 
 }
+h3{
+    text-align: center;
+}
   
 .menu {
     width: 100%;
