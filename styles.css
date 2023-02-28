@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(10, 4, 4);
+    background-image: url(a1.jpg);
     font-family: sans-serif;
     
     padding: auto;
@@ -24,6 +24,10 @@ h1, h2, p {
     text-align: center;
     flex: 1;
 
+}
+p{
+    text-align: center;
+    display: block;
 }
 h3{
     text-align: center;
