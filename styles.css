@@ -33,6 +33,7 @@ p{
 }
 h3{
     text-align: center;
+    font-family: sans-serif;
 }
   
 .menu {
@@ -97,7 +98,7 @@ footer {
 }
   
 a {
-    color: black;
+    color: rgb(250, 144, 6);
 }
   
 a:visited {
