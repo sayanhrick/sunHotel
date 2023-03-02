@@ -33,16 +33,14 @@ h3{
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-
-    max-width: -webkit-fill-available;
+    max-width: 500px;
+    
     height: -webkit-fill-available; 
 }
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
+    
     max-width: 500px;
 }
 
@@ -58,6 +56,9 @@ hr {
   
 h1, h2 {
     font-family: Impact, serif;
+}
+h3{
+    text-align: center;
 }
   
 .item p {
@@ -104,11 +105,12 @@ a:active {
 }
 center{
     width: auto;
-    /* background-color: rgb(234, 137, 9); */
+    
     margin-left: 0;
     margin-right: 0;
-    
+    text-align: center;
     max-width: 80px;
+    display: block;
 }
 
 /* html{
