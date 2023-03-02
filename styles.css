@@ -33,7 +33,9 @@ h3{
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    max-width: 500px;
+
+    max-width: -webkit-fill-available;
+    height: -webkit-fill-available; 
 }
 
 img {
@@ -98,5 +100,44 @@ a:visited {
 }
   
 a:active {
-    color: rgb(194, 40, 91);
-} 
+    color: brown;
+}
+center{
+    width: auto;
+    /* background-color: rgb(234, 137, 9); */
+    margin-left: 0;
+    margin-right: 0;
+    
+    max-width: 80px;
+}
+
+/* html{
+    height: -webkit-fill-available;
+}
+body{
+    height: -webkit-fill-available;
+} */
+
+footer {
+    font-size: 14px;
+}
+  
+.address {
+    margin-bottom: 5px;
+}
+  
+a {
+    color: black;
+}
+  
+a:visited {
+    color: rgb(250, 125, 8);
+}
+  
+a:hover {
+    color: rgb(243, 239, 14);
+}
+  
+a:active {
+    color: brown;
+}
