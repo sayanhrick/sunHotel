@@ -39,9 +39,9 @@ h3{
 }
 
 img {
-    display: block;
-    
-    max-width: 500px;
+
+    height:25%;
+    width:--webkit-fill-available;
 }
 
 hr {
