@@ -5,6 +5,10 @@ body {
     padding: auto;
     
 }
+
+.sunHotel{
+    max-width: -webkit-fill-available;
+}
   
 h1 {
     font-size: 40px;
@@ -38,7 +42,7 @@ h3{
     height: --webkit-fill-available; 
 }
 
-img {
+/* img {
     
     
     height:35%;
@@ -47,7 +51,7 @@ img {
     margin-right: auto;
     padding: 20px;
     max-width: --webkit-fill-available;
-}
+} */
 
 hr {
     height: 2px;
@@ -147,4 +151,14 @@ a:hover {
   
 a:active {
     color: brown;
+}
+
+
+.sunHotel img{
+    display: flex;
+    align-self: center;
+    
+    
+    
+
 }
